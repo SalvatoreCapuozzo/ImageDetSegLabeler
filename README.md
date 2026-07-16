@@ -5,7 +5,7 @@ A suite of lightweight, standalone GUI tools built in Python. This repository co
 ## Features
 
 ### Image Labeler (`labeler.py`)
-* **Dual Annotation Modes:** Support for both Bounding Box (BBox) and Polygon Mask segmentation.
+* **Dual Annotation Modes:** Support for both Bounding Box (BBox) and Polygon Mask segmentation, even on the same image.
 * **Universal Import:** Automatically loads existing annotations from corresponding `.json` files or YOLO format `.txt` files (from the same folder or a `../labels/` folder).
 * **Instant Probe:** Right-click anywhere on the image to get instant X/Y pixel coordinates.
 
@@ -42,7 +42,7 @@ python video_labeler.py
 If you want to create double-clickable applications that do not require Python to be installed on the host machine, use PyInstaller:
 
 ~~~bash
-pip install pyinstaller Pillow opencv-python opencv-contrib-python
+pip install pyinstaller Pillow opencv-python numpy
 ~~~
 
 Then, generate the executables:
