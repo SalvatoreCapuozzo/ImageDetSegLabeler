@@ -58,8 +58,8 @@ Look inside the newly generated `dist/` folder to find your standalone executabl
 
 ## How to Use the Image Labeler
 
-1. **Load Classes (Optional):** Click **"Load Classes"** to import a `.txt` file. If a folder contains `categories.txt` or `classes.txt`, it loads automatically.
-2. **Load Folder:** Click **"Load Folder"** and select the directory containing your `.png`, `.jpg`, or `.jpeg` images.
+1. **Load Folder:** Click **"Load Folder"** and select the directory containing your `.png`, `.jpg`, or `.jpeg` images. If a folder contains `categories.txt` or `classes.txt`, it loads automatically the classes without the necessity to use **"Load Classes"**.
+2. **Load Classes (Optional):** Click **"Load Classes"** to import a `.txt` file. 
 3. **Select Mode & Category:** Choose the desired class category and toggle between **BBox** or **Mask** mode.
 4. **Draw Annotations:**
     * **BBox:** Click and drag to draw a bounding box.
